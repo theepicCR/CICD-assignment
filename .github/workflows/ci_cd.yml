@@ -39,7 +39,13 @@ jobs:
 
       # Step 4: Run Python tests
       ####
-
+      - name: Run Python tests
+        run: |
+          if [ -f pytest.ini ] || ls tests; then
+            pytest
+          else
+            echo "No tests found, skipping tests."
+          fi
 
 
   deploy:
