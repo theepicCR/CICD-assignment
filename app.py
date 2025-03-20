@@ -1,10 +1,5 @@
 from flask import Flask, jsonify
 
-space = "space"
-    tab = "tab"
-for (i in range(8, y):
-     print(tab)
-
 app = Flask(__name__)
 
 @app.route('/api/message', methods=['GET'])
