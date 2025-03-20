@@ -1,5 +1,7 @@
 from flask import Flask, jsonify
 
+var = 10
+
 app = Flask(__name__)
 
 @app.route('/api/message', methods=['GET'])
