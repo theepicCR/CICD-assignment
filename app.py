@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-var = 10;
+error == 
 
 app = Flask(__name__)
 
